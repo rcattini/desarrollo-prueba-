@@ -1,0 +1,218 @@
+* {
+  margin: 0;
+  padding: 0%;
+}
+@font-face {
+  font-family: "Kyiv";
+  src: url(./Font/KyivTypeSans-Bold.ttf);
+  font-style: normal;
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Kyiv";
+  src: url(./Font/KyivTypeSans-Regular.ttf);
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Kyiv";
+  src: url(./Font/KyivTypeSans-Light.ttf);
+  font-style: normal;
+  font-weight: 200;
+}
+body {
+  font-family: "Kyiv", sans-serif;
+  color: white;
+  background-color: #191970;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+/*comienzo Header gral*/
+.cuerpo__cabeza {
+  background-color: #8d0000;
+  padding: 30px;
+  margin: 0;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.cuerpo__cabeza__logo {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+}
+.cuerpo__cabeza__menu {
+
+  margin: 28px;
+  display: flex;
+  align-items: center;
+}
+
+.cuerpo__cabeza__menu ul li {
+  list-style: none;
+  position: relative;
+  display: inline-block;
+  margin: 0 20px;
+}
+.cuerpo__cabeza__menu ul li:hover {
+  background-color: #191970;
+  border-radius: 10px;
+}
+.cuerpo__cabeza__menu ul li a {
+  color: white;
+  text-decoration: none;
+  margin: 10px;
+}
+/*Final Header gral*/
+
+/*Comienzo Footer gral*/
+
+.cuerpo__pie {
+  background-color: #222021;
+  font-family: inherit;
+}
+.cuerpo__pie__texto {
+  margin: 30px;
+  display: inline-block;
+  position: relative;
+}
+.cuerpo__pie__redes {
+  position: relative;
+  display: inline-block;
+  text-align: end;
+}
+.cuerpo__pie__redes ul li {
+  display: inline-block;
+  list-style: none;
+  position: relative;
+  margin: 10px;
+}
+
+/*Final Footer gral*/
+
+/*Comienzo Main Index*/
+.cuerpo__torso__index {
+  margin-top: 30px;
+}
+.cuerpo__torso__index__portada img {
+  width: 100%;
+}
+.cuerpo__torso__index__minibio {
+  background-color: #1e0c06;
+  border-top-left-radius: 40px;
+  border-bottom-left-radius: 40px;
+  margin-left: 150px;
+}
+.cuerpo__torso__index__minibio h1 {
+  position: relative;
+  padding: 40px;
+}
+.cuerpo__torso__index__minibio p {
+  text-align: end;
+  padding: 40px;
+}
+.cuerpo__torso__index__minibio button {
+  background-color: #8d0000;
+  border: 2px;
+  border-radius: 10px;
+  margin: 40px;
+  padding: 10px;
+}
+.cuerpo__torso__index__minibio button a {
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+.cuerpo__torso__index__minibio button:hover {
+  background-color: #191970;
+  border-radius: 10px;
+}
+.cuerpo__torso__index__minigaleri div ul li {
+  display: inline-block;
+  position: relative;
+}
+.cuerpo__torso__index__minigaleri button {
+  background-color: #8d0000;
+  border: 2px;
+  border-radius: 10px;
+  margin: 40px;
+  padding: 10px;
+}
+.cuerpo__torso__index__minigaleri button a {
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+.cuerpo__torso__index__minigaleri button:hover {
+  background-color: #191970;
+  border-radius: 10px;
+}
+
+/*Final Main Index*/
+
+/*Comienzo Main Biografia*/
+
+.cuerpo__torso__bio__historia h1 {
+  text-align: center;
+  margin: 40px;
+}
+.cuerpo__torso__bio p {
+  text-align: justify;
+  margin: 50px;
+
+;
+}
+.cuerpo__torso__bio__fotos {
+  display: inline-block;
+  position: relative;
+  margin: 50px;
+  
+  border-top:solid 5px red;	border-right:solid 10px cyan;
+border-bottom:solid 7px green;
+border-left:solid 12px yellow;
+}
+/*Final Main Biografia*/
+
+/*Comienzo Main Merchendaising*/
+
+.cuerpo__torso__merch__camisetas {
+  margin: 50px;
+}
+.cuerpo__torso__merch__camisetas div {
+  display: inline-block;
+  margin: 30px;
+  position: relative;
+}
+.cuerpo__torso__merch__camisetas div div {
+  display: inline;
+}
+
+/*Final Main Merchendaising*/
+
+/*Comienzo Main Galeria*/
+
+.cuerpo__torso__galeri {
+  display: inline-block;
+  margin: 50px;
+}
+.cuerpo__torso__galeri section ul li {
+  list-style: none;
+  display: inline-block;
+}
+/*Final Main Galeria*/
+/*Comienzo Main Contacto*/
+.cuerpo__torso__contacto {
+  margin-top: 50px;
+  margin-bottom: 200px;
+  text-align: center;
+}
+.cuerpo__torso__contacto form {
+  display: inline-block;
+}
+/*Final Main Contacto*/
